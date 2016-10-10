@@ -18,7 +18,7 @@
     // 设置正在刷新状态的动画图片
     NSMutableArray *refreshingImages = [NSMutableArray array];
     for (NSUInteger i = 1; i<=108; i++) {
-        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"CoreList.bundle/dropdown_loading_0%zd", i]];
+        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"ShiDianRefresh.bundle/dropdown_loading_0%zd", i]];
         [refreshingImages addObject:image];
     }
     [self setImages:refreshingImages forState:MJRefreshStateRefreshing];

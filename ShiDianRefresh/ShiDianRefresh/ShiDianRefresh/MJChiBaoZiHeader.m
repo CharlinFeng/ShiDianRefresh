@@ -18,7 +18,7 @@
     // 设置普通状态的动画图片
     NSMutableArray *idleImages = [NSMutableArray array];
     for (NSUInteger i = 1; i<=74; i++) {
-        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"CoreList.bundle/dropdown_anim_000%zd", i]];
+        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"ShiDianRefresh.bundle/dropdown_anim_000%zd", i]];
         [idleImages addObject:image];
     }
      [self setImages:idleImages forState:MJRefreshStateIdle];
@@ -26,7 +26,7 @@
     // 设置即将刷新状态的动画图片（一松开就会刷新的状态）
     NSMutableArray *refreshingImages = [NSMutableArray array];
     for (NSUInteger i = 1; i<=108; i++) {
-        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"CoreList.bundle/dropdown_loading_0%zd", i]];
+        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"ShiDianRefresh.bundle/dropdown_loading_0%zd", i]];
         [refreshingImages addObject:image];
     }
     [self setImages:refreshingImages forState:MJRefreshStatePulling];
