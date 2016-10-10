@@ -8,6 +8,8 @@
 
 #import "MJRefreshGifHeader.h"
 
+
+
 @interface MJChiBaoZiHeader : MJRefreshGifHeader
 
 @end

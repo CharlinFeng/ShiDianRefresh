@@ -8,6 +8,7 @@
 
 #import "MJRefreshAutoGifFooter.h"
 
+
 @interface MJChiBaoZiFooter : MJRefreshAutoGifFooter
 
 @end

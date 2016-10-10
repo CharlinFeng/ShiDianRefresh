@@ -36,6 +36,7 @@
 		8914D0041DAB4CC400A940A6 /* MJChiBaoZiFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8914CFEC1DAB4CC400A940A6 /* MJChiBaoZiFooter.m */; };
 		8914D0051DAB4CC400A940A6 /* MJChiBaoZiHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8914CFEE1DAB4CC400A940A6 /* MJChiBaoZiHeader.m */; };
 		8914D0061DAB4CC400A940A6 /* ShiDianRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8914CFEF1DAB4CC400A940A6 /* ShiDianRefresh.bundle */; };
+		8914D0091DAB4E1F00A940A6 /* UIImage+ShiDianRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 8914D0081DAB4E1F00A940A6 /* UIImage+ShiDianRefresh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +95,8 @@
 		8914CFED1DAB4CC400A940A6 /* MJChiBaoZiHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJChiBaoZiHeader.h; sourceTree = "<group>"; };
 		8914CFEE1DAB4CC400A940A6 /* MJChiBaoZiHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJChiBaoZiHeader.m; sourceTree = "<group>"; };
 		8914CFEF1DAB4CC400A940A6 /* ShiDianRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShiDianRefresh.bundle; sourceTree = "<group>"; };
+		8914D0071DAB4E1F00A940A6 /* UIImage+ShiDianRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ShiDianRefresh.h"; sourceTree = "<group>"; };
+		8914D0081DAB4E1F00A940A6 /* UIImage+ShiDianRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ShiDianRefresh.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +263,8 @@
 				8914CFED1DAB4CC400A940A6 /* MJChiBaoZiHeader.h */,
 				8914CFEE1DAB4CC400A940A6 /* MJChiBaoZiHeader.m */,
 				8914CFEF1DAB4CC400A940A6 /* ShiDianRefresh.bundle */,
+				8914D0071DAB4E1F00A940A6 /* UIImage+ShiDianRefresh.h */,
+				8914D0081DAB4E1F00A940A6 /* UIImage+ShiDianRefresh.m */,
 			);
 			path = ShiDianRefresh;
 			sourceTree = "<group>";
@@ -352,6 +357,7 @@
 				8914D0021DAB4CC400A940A6 /* UIScrollView+MJRefresh.m in Sources */,
 				8914CFF81DAB4CC400A940A6 /* MJRefreshBackGifFooter.m in Sources */,
 				8914CFFC1DAB4CC400A940A6 /* MJRefreshNormalHeader.m in Sources */,
+				8914D0091DAB4E1F00A940A6 /* UIImage+ShiDianRefresh.m in Sources */,
 				8914CFF71DAB4CC400A940A6 /* MJRefreshAutoStateFooter.m in Sources */,
 				8914CFF11DAB4CC400A940A6 /* MJRefreshBackFooter.m in Sources */,
 				8914CF541DAB4BD100A940A6 /* main.m in Sources */,
